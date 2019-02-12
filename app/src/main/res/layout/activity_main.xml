@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    android:stretchColumns="0"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:id="@+id/Detail"
+        android:layout_marginTop="40dp"
+
+        >
+
+        <TextView
+            android:text="Student Detail"
+            android:layout_span="5"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/margin"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@android:color/darker_gray"
+        >
+
+        <TextView
+            android:text="Id"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:text="Name"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:text="AGE"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:text="CGPA"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:text="DOB"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/margin1"
+        android:padding="10dp"
+        android:background="@android:color/holo_purple"
+        >
+
+        <TextView
+            android:text="140"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:text="Arafat"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:text="22"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:text="3.33"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:text="20.2.1997"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/margin2"
+        android:padding="10dp"
+        android:background="@android:color/holo_purple"
+        >
+
+        <TextView
+            android:text="145"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:text="Pri"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:text="23"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:text="3.85"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:text="13.10.199"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row3"
+        android:padding="10dp"
+        android:background="@android:color/holo_purple"
+        >
+
+        <TextView
+            android:text="152"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:text="Foisal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:text="20"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:text="3.50"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:text="16.1.1997"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/button">
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_column="2"
+            android:text="Add"
+            android:textSize="16dp"
+            />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/submit">
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_column="2"
+            android:text="Submit"
+            android:textSize="16dp"
+            />
+
+
+    </TableRow>
+
+
+</TableLayout>
